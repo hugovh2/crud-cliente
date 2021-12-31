@@ -33,6 +33,22 @@
                         <input type="email" name="email" class="form-control" value="{{ $usuario->email }}">
                       </div>
 
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Endereço</label>
+                        <input type="endereco" name="endereco" class="form-control" value="{{ $usuario->endereco }}">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">CPF</label>
+                        <input type="cpf" name="cpf" class="form-control" value="{{ $usuario->cpf }}">
+                      </div>
+
+                      
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Telefone</label>
+                        <input type="telefone" name="telefone" class="form-control" value="{{ $usuario->telefone }}">
+                      </div>
+
                       <button type="submit" class="btn btn-primary">Atualizar</button>
                     </form>
 
@@ -48,6 +64,21 @@
                       <div class="form-group">
                         <label for="exampleInputEmail1">E-mail:</label>
                         <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Endereço:</label>
+                        <input type="endereco" name="endereco" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">CPF</label>
+                        <input type="cpf" name="cpf" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Telefone</label>
+                        <input type="telefone" name="telefone" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                       </div>
 
                       <button type="submit" class="btn btn-primary">Cadastrar</button>
