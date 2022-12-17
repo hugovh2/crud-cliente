@@ -18,7 +18,7 @@
                     @endif
 
                     <h1>Seja Bem-vindo!</h1>
-                    <a href="{{ url('usuarios') }}">Lista dos usuários</a>
+                    <a href="{{ route('usuarios') }}">Lista dos usuários</a>
                 </div>
             </div>
         </div>
