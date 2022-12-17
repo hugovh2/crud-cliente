@@ -8,8 +8,8 @@
         <div class="col-md-8">
             <div class="card">
                 <h3>
-                <div class="card-header">{{ __('Logado') }}</div>
-</h3>
+                    {{ __('Logado') }}
+                </h3>
                 <div class="card-body">
                     @if (session('status'))
                     <div class="alert alert-success" role="alert">
@@ -19,11 +19,10 @@
 
                     <h1>Seja Bem-vindo!</h1>
                     <a href="{{ url('usuarios') }}">Lista dos usuários</a>
-                    
-
                 </div>
             </div>
         </div>
     </div>
 </div>
+</body>
 @endsection
